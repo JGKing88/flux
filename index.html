@@ -38,7 +38,7 @@
                 redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("https://nfi5s6kmql.execute-api.us-west-2.amazonaws.com/staging", requestOptions)
+            fetch("https://nfi5s6kmql.execute-api.us-west-2.amazonaws.com/items", requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
