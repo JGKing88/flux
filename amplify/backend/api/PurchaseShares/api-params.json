@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "purchaseShares",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "PurchaseShares",
+    "apiName": "PurchaseShares",
+    "functionArns": [
+        {
+            "lambdaFunction": "purchaseShares"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-flux-staging-01129-authRole",
+        "unAuthRoleName": "amplify-flux-staging-01129-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "purchaseShares",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
