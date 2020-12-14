@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flux-staging-01129-authRole",
+      "UnauthRoleArn": "arn:aws:iam::054220055108:role/amplify-flux-staging-01129-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::054220055108:role/amplify-flux-staging-01129-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-flux-staging-01129-deployment",
+      "UnauthRoleName": "amplify-flux-staging-01129-unauthRole",
+      "StackName": "amplify-flux-staging-01129",
+      "StackId": "arn:aws:cloudformation:us-west-2:054220055108:stack/amplify-flux-staging-01129/eaa05590-3da0-11eb-97d4-02400ead0b83",
+      "AmplifyAppId": "d3mtqpf3ek49ez"
+    }
+  }
+}
